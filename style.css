@@ -1,0 +1,175 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0%;
+    display: grid;
+    grid-template-rows: 80% 85%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 290%;
+    background-color: #FFC851;
+    margin-top: -2.9%;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+
+@keyframes andando {
+    to {
+        transform: translateX(0px);
+    }
+
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+h1,
+h2 {
+    margin-left: 9%;
+    animation: andando 2s ease-out 0s 1 normal;
+}
+
+h1 {
+    margin-top: 7%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ceu {
+    width: 38%;
+    float: right;
+    margin-top: -5%;
+    clear: none;
+    animation: andando 2s ease-out 0s 1 normal;
+}
+
+@keyframes girando {
+    to {
+        transform: rotate(-30deg);
+    }
+
+    from {
+        transform: rotate(30deg);
+    }
+}
+
+.sol {
+    width: 28%;
+    float: right;
+    margin-top: 4%;
+    animation: girando 3s ease-in-out 0s infinite alternate;
+}
+
+#sol {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+
+main {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    background-color: #FFEBC0;
+}
+
+#s1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#s2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#s3 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+#s4 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.botao-img {
+    margin-right: 0%;
+    cursor: pointer;
+    animation: andando 2s ease-out 0s 1 normal;
+}
+
+#b1 {
+    width: 28%;
+    margin-left: -2%;
+}
+
+#b2 {
+    width: 28%;
+    margin-left: -2%;
+}
+
+#b3 {
+    width: 44%;
+    margin-left: -2%;
+}
+
+#b4 {
+    width: 100%;
+    margin-left: -2%;
+}
+
+.botao-img:hover {
+    padding: 0%;
+    border: 3px dashed #FFC851;
+}
+
+.modal {
+    background: #FFEBC0 url("imagens/fundo-modal.png") no-repeat fixed;
+    position: fixed;
+    top: 6%;
+    left: 4%;
+    width: 63.5%;
+    height: 85%;
+    border-radius: 5%;
+    display: none;
+    font-size: 127.5%;
+    text-align: justify;
+    padding: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho-modal {
+    text-align: center;
+}
+
+.cabecalho-modal-fechar {
+    position: fixed;
+    top: 9%;
+    left: 63%;
+    color: #ffae00;
+    cursor: pointer;
+    font-size: 300%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.participar {
+    font-size: 130%;
+}
+
+.escolher {
+    font-size: 120%;
+}
+
+.expectativa {
+    font-size: 130%;
+    margin-bottom: 1.5%;
+}
+
+#primeiro {
+    list-style: none;
+}
