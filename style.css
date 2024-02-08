@@ -1,6 +1,7 @@
 html,
 body {
     min-height: 100%;
+    padding: 0%;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     display: grid;
     grid-template-rows: 80% 85%;
     grid-template-columns: 25% 25% 25% 25%;
+    background-color: #FFEBC0;
 }
 
 header {
@@ -63,6 +65,7 @@ h1 {
     float: right;
     margin-top: 4%;
     animation: girando 3s ease-in-out 0s infinite alternate;
+    margin-right: 10%;
 }
 
 #sol {
@@ -74,7 +77,6 @@ h1 {
 main {
     grid-row: 2/3;
     grid-column: 1/5;
-    background-color: #FFEBC0;
 }
 
 #s1 {
@@ -104,7 +106,7 @@ main {
 }
 
 #b1 {
-    width: 28%;
+    width: 20.5%;
     margin-left: -2%;
 }
 
@@ -130,6 +132,7 @@ main {
 
 .modal {
     background: #FFEBC0 url("imagens/fundo-modal.png") no-repeat fixed;
+    background-size: 80%;
     position: fixed;
     top: 6%;
     left: 4%;
@@ -137,7 +140,6 @@ main {
     height: 85%;
     border-radius: 5%;
     display: none;
-    font-size: 127.5%;
     text-align: justify;
     padding: 1.5%;
     font-family: 'Montserrat', sans-serif;
@@ -162,7 +164,7 @@ main {
 }
 
 .escolher {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .expectativa {
@@ -172,4 +174,8 @@ main {
 
 #primeiro {
     list-style: none;
+}
+
+.mim {
+    font-size: 90%;
 }

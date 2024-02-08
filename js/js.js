@@ -37,16 +37,16 @@ $b1El.click(function () {
         '</div>').appendTo($logoEl);
 
     $('header').css('background-color', '#367CE5');
-    $('main').css('background-color', '#94C0FF');
+    $('body').css('background-color', '#94C0FF');
     abrirModal($modalEl);
-    $('<h3>Sobre mim</h3>').appendTo($cabecalhoEl);
-    $('<p>Eu sou o Gabriel Damasceno, tenho 15 anos e atualmente estou no segundo ano do Curso Técnico Integrado em Informática. Venho de um contexto social desfavorecido, a periferia da divisa entre Belo Horizonte e Ribeirão das Neves. Estudei durante todo o Ensino Fundamental em uma pequena escola pública municipal de Belo Horizonte, localizada perto da minha casa.</p>').appendTo($corpoEl);
-    $('<p>Desde cedo, fui instigado a me dedicar aos estudos e às atividades estimulantes intelectualmente. Sempre gostei desse caminho e não penso diferente atualmente. Na escola, fui aluno destaque e com notas excelentes durante todos os anos cursados.</p>').appendTo($corpoEl);
-    $('<p>Quando tinha cerca de 8 anos de idade, descobri a existência do Cefet-MG e outras instituições federais que ofertam o Ensino Médio com curso técnico integrado.Nesse momento, decidi que esse era um dos meus objetivos, que, com muito esforço e dedicação, foi cumprido.</p>').appendTo($corpoEl);
-    $('<p>Já no final do oitavo ano do Ensino Fundamental, comecei a estudar e me informar sobre os vestibulares dessas instituições. Passei o ano seguinte inteiro me preparando, sem folga ou desistência. No final de 2022, obtive o resultado desejado, fui aprovado em primeira chamada nos cursos mais disputados do Cefet-MG e do Coltec da UFMG, Informática e Desenvolvimento de Sistemas, respectivamente.</p>').appendTo($corpoEl);
-    $('<p>Com o sonho realizado, comecei minha jornada nesta instituição. Ao longo do primeiro ano, obtive ótimos resultados. Notas acima da média em todas as matérias, além de ser o primeiro classificado no processo seletivo para um projeto de Iniciação Científica e, como bônus, cito que tive um desempenho de 99 pontos na disciplina de Laboratório de Programação Web, esta, que é essencial para a participação neste Projeto de Extensão.</p>').appendTo($corpoEl);
-    $('<p>Somado ao fato de eu ser pobre e periférico, ainda tenho que enfrentar mais desafios e preconceitos, por ser um garoto transgênero, parte da comunidade LGBT. Eu estou às margens da sociedade e tenho plena consciência disto. Contudo, também sei que oportunidades como esta podem ajudar a tirar a mim e pessoas como eu de uma situação de invisibilidade social. Nos dando a possibilidade de construir um futuro melhor e longe das estatísticas que vemos na televisão.</p>').appendTo($corpoEl);
-    $('<p>Por esses e outros motivos, acredito que eu sou a pessoa correta para participar deste projeto.</p>').appendTo($corpoEl);
+    $('<h3 class="mim">Sobre mim</h3>').appendTo($cabecalhoEl);
+    $('<p class="mim">Eu sou o Gabriel Damasceno, tenho 15 anos e atualmente estou no segundo ano do Curso Técnico Integrado em Informática. Venho de um contexto social desfavorecido, a periferia da divisa entre Belo Horizonte e Ribeirão das Neves. Estudei durante todo o Ensino Fundamental em uma pequena escola pública municipal de Belo Horizonte, localizada perto da minha casa.</p>').appendTo($corpoEl);
+    $('<p class="mim">Desde cedo, fui instigado a me dedicar aos estudos e às atividades estimulantes intelectualmente. Sempre gostei desse caminho e não penso diferente atualmente. Na escola, fui aluno destaque e com notas excelentes durante todos os anos cursados.</p>').appendTo($corpoEl);
+    $('<p class="mim">Quando tinha cerca de 8 anos de idade, descobri a existência do Cefet-MG e outras instituições federais que ofertam o Ensino Médio com curso técnico integrado.Nesse momento, decidi que esse era um dos meus objetivos, que, com muito esforço e dedicação, foi cumprido.</p>').appendTo($corpoEl);
+    $('<p class="mim">Já no final do oitavo ano do Ensino Fundamental, comecei a estudar e me informar sobre os vestibulares dessas instituições. Passei o ano seguinte inteiro me preparando, sem folga ou desistência. No final de 2022, obtive o resultado desejado, fui aprovado em primeira chamada nos cursos mais disputados do Cefet-MG e do Coltec da UFMG, Informática e Desenvolvimento de Sistemas, respectivamente.</p>').appendTo($corpoEl);
+    $('<p class="mim">Com o sonho realizado, comecei minha jornada nesta instituição. Ao longo do primeiro ano, obtive ótimos resultados. Notas acima da média em todas as matérias, além de ser o primeiro classificado no processo seletivo para um projeto de Iniciação Científica e, como bônus, cito que tive um desempenho de 99 pontos na disciplina de Laboratório de Programação Web, esta, que é essencial para a participação neste Projeto de Extensão.</p>').appendTo($corpoEl);
+    $('<p class="mim">Somado ao fato de eu ser pobre e periférico, ainda tenho que enfrentar mais desafios e preconceitos, por ser um garoto transgênero, parte da comunidade LGBT. Eu estou às margens da sociedade e tenho plena consciência disto. Contudo, também sei que oportunidades como esta podem ajudar a tirar a mim e pessoas como eu de uma situação de invisibilidade social. Nos dando a possibilidade de construir um futuro melhor e longe das estatísticas que vemos na televisão.</p>').appendTo($corpoEl);
+    $('<p class="mim">Por esses e outros motivos, acredito que eu sou a pessoa correta para participar deste projeto.</p>').appendTo($corpoEl);
 });
 
 $b2El.click(function () {
@@ -57,7 +57,7 @@ $b2El.click(function () {
         '</div>').appendTo($logoEl);
 
     $('header').css('background-color', '#367CE5');
-    $('main').css('background-color', '#94C0FF');
+    $('body').css('background-color', '#94C0FF');
     abrirModal($modalEl);
     $('<h3 class="participar">Por que quero participar?</h3>').appendTo($cabecalhoEl);
     $('<p class="participar">Eu quero participar deste projeto de extensão, pois desejo seguir atuando, profissionalmente, na área de Desenvolvimento de Sistemas após o fim do curso técnico. Esta seria uma experiência fenomenal para adicionar ao meu currículo, ainda mais em um começo de carreira.</p>').appendTo($corpoEl);
@@ -73,7 +73,7 @@ $b3El.click(function () {
         '</div>').appendTo($logoEl);
 
     $('header').css('background-color', '#367CE5');
-    $('main').css('background-color', '#94C0FF');
+    $('body').css('background-color', '#94C0FF');
     abrirModal($modalEl);
     $('<h3 class="escolher">Por que me escolher?</h3>').appendTo($cabecalhoEl);
     $('<p class="escolher">Acredito que eu deva ser escolhido para participar deste Projeto de Extensão, pois serei produtivo, comprometido e aprenderei rapidamente. Como dito anteriormente, tenho uma capacidade excepcional de aprender coisas novas, característica que faz com que eu me destaque facilmente nos projetos em que trabalho. Sou extremamente pontual, dedicado e focado em tudo que que assumo compromisso, então é certo que, se selecionado, não vou decepcionar, tampouco atrasar  os deveres. Individualmente, sempre consigo atingir ou superar as expectativas e creio que, trabalhando em equipe com os colegas, não será diferente nesta extensão.</p>').appendTo($corpoEl);
@@ -91,7 +91,7 @@ $b4El.click(function () {
         '</div>').appendTo($logoEl);
 
     $('header').css('background-color', '#367CE5');
-    $('main').css('background-color', '#94C0FF');
+    $('body').css('background-color', '#94C0FF');
     abrirModal($modalEl);
     $('<h3 class="expectativa">Minhas expectativas</h3>').appendTo($cabecalhoEl);
     $('<ul><li class="expectativa" id="primeiro">Minhas expectativas ao participar deste Projeto de Extensão são:</li>').appendTo($corpoEl);
@@ -112,7 +112,7 @@ $('.cabecalho-modal-fechar').click(function () {
         '<img src="imagens/sol.png" class="sol">' +
         '</div>').appendTo($logoEl);
     $('header').css('background-color', '#FFC851');
-    $('main').css('background-color', '#FFEBC0');
+    $('body').css('background-color', '#FFEBC0');
     fecharModal($modalEl);
 });
 
@@ -124,7 +124,7 @@ $("main").click(function () {
             '<img src="imagens/sol.png" class="sol">' +
             '</div>').appendTo($logoEl);
         $('header').css('background-color', '#FFC851');
-        $('main').css('background-color', '#FFEBC0');
+        $('body').css('background-color', '#FFEBC0');
         fecharModal($modalEl);
     }
 });
@@ -137,7 +137,7 @@ $("header").click(function () {
             '<img src="imagens/sol.png" class="sol">' +
             '</div>').appendTo($logoEl);
         $('header').css('background-color', '#FFC851');
-        $('main').css('background-color', '#FFEBC0');
+        $('body').css('background-color', '#FFEBC0');
         fecharModal($modalEl);
     }
 });
